@@ -116,7 +116,7 @@ class RobotBehaviorThread(threading.Thread):
             print ("No Robot or No coords")
             time.sleep(1)
 
-        self.robot = self.robotList[0]
+        self.robot = self.robot_list[0]
         self.path = list_of_coords
         self.current_node = path[0]
         ###################init####################
