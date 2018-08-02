@@ -118,6 +118,7 @@ class RobotBehaviorThread(threading.Thread):
 
         self.robot = self.robot_list[0]
         self.path = list_of_coords
+        print(self.path)
         self.current_node = self.path[0]
         ###################init####################
 
@@ -324,7 +325,7 @@ def main():
 
 
     behaviors = RobotBehaviorThread(robotList, global_orientation)
-    behaviors.setDaemon(False)
+    behaviors.setDaemon(True)
     behaviors.start()
 
     root.mainloop()
