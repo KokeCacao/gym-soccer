@@ -1,6 +1,6 @@
 import numpy as np
 import sys
-from gym.envs.toy_text import discrete
+import discrete
 
 UP = 0
 RIGHT = 1
