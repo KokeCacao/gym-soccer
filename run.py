@@ -98,6 +98,12 @@ class RobotBehaviorThread(threading.Thread):
         # self.unexpected_obstacle_node = None
 
         self.robot_list = robotList
+        self.robot = None
+        self.path = None
+        self.current_node = None
+
+    def run(self):
+        ###################init####################
         import pickle
         list_of_coords = None
         while (list_of_coords == None or len(self.robot_list) != 1):
@@ -113,8 +119,8 @@ class RobotBehaviorThread(threading.Thread):
         self.robot = self.robotList[0]
         self.path = list_of_coords
         self.current_node = path[0]
+        ###################init####################
 
-    def run(self):
         for i, node in enumerate(self.path):
             # if self.meet_unexpected_obstacle:
             #     # start re-plan the path
