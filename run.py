@@ -88,7 +88,6 @@ class Node(object):
 
 class RobotBehaviorThread(threading.Thread):
     def __init__(self, robotList, orientation):
-        self.current_node = path[0]
         self.current_task = -1
         self.orientation = orientation
         # self.gui_handle = gui_handle
@@ -113,6 +112,7 @@ class RobotBehaviorThread(threading.Thread):
 
         self.robot = robotList[0]
         self.path = list_of_coords
+        self.current_node = path[0]
 
     def run(self):
         for i, node in enumerate(self.path):
