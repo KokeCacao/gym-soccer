@@ -307,7 +307,7 @@ def main():
     list_of_coords = None
     while(list_of_coords == None):
         try:
-            outfile = '/Users/admin/Documents/Hamster/lab6/data.txt'
+            outfile = '/Users/admin/Documents/gym/gym/projects/data.txt'
             with open(outfile, 'rb') as fp:
                 list_of_coords = pickle.load(fp)
         except Exception as e:
