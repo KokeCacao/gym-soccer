@@ -305,7 +305,7 @@ def main():
 
     import pickle
     list_of_coords = None
-    while(list_of_coords == None):
+    while(list_of_coords == None or len(robotList) != 1):
         try:
             outfile = '/Users/admin/Documents/gym/gym/projects/data.txt'
             with open(outfile, 'rb') as fp:
