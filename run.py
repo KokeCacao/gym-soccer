@@ -118,7 +118,7 @@ class RobotBehaviorThread(threading.Thread):
 
         self.robot = self.robot_list[0]
         self.path = list_of_coords
-        self.current_node = path[0]
+        self.current_node = self.path[0]
         ###################init####################
 
         for i, node in enumerate(self.path):
