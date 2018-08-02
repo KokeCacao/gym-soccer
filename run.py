@@ -100,7 +100,7 @@ class RobotBehaviorThread(threading.Thread):
         self.robot_list = robotList
         import pickle
         list_of_coords = None
-        while (list_of_coords == None or len(self.robotList) != 1):
+        while (list_of_coords == None or len(self.robot_list) != 1):
             try:
                 outfile = '/Users/admin/Documents/gym/gym/projects/data.txt'
                 with open(outfile, 'rb') as fp:
@@ -110,7 +110,7 @@ class RobotBehaviorThread(threading.Thread):
             print ("No Robot or No coords")
             time.sleep(1)
 
-        self.robot = robotList[0]
+        self.robot = self.robotList[0]
         self.path = list_of_coords
         self.current_node = path[0]
 
