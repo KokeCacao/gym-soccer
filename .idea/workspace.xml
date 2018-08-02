@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d434fe8b-e9b9-4c21-bc4a-378c674925a7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/ReinforcementLearningOnHamster-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/.ipynb_checkpoints/ReinforcementLearningOnHamster-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReinforcementLearningOnHamster.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ReinforcementLearningOnHamster.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gym_soccer/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gym_soccer/envs/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gym_soccer/envs/discrete.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gym_soccer/envs/hamster_env.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gym_soccer/envs/soccer_against_keeper.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gym_soccer/envs/soccer_empty_goal.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gym_soccer/envs/soccer_env.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,8 +16,8 @@
       <file leaf-file-name="run.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="305" column="29" selection-start-line="305" selection-start-column="29" selection-end-line="305" selection-end-column="29" />
+            <state relative-caret-position="467">
+              <caret line="316" column="61" selection-start-line="316" selection-start-column="61" selection-end-line="316" selection-end-column="61" />
               <folding>
                 <element signature="e#39#80#0" expanded="true" />
                 <element signature="e#179#384#0" />
@@ -178,8 +167,8 @@
     <entry file="file://$PROJECT_DIR$/gym_soccer/envs/discrete.py" />
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="305" column="29" selection-start-line="305" selection-start-column="29" selection-end-line="305" selection-end-column="29" />
+        <state relative-caret-position="467">
+          <caret line="316" column="61" selection-start-line="316" selection-start-column="61" selection-end-line="316" selection-end-column="61" />
           <folding>
             <element signature="e#39#80#0" expanded="true" />
             <element signature="e#179#384#0" />

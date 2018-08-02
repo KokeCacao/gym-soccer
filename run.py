@@ -302,7 +302,19 @@ def main():
     # root = tk.Tk()
     # gui_handle.draw_virtual_world()  # this method runs in main thread
     # gui_handle = GridGraphDisplay(frame=root, blocks=global_blocks, grid_map=grid_map, all_path=all_paths, success_paths=success_paths, start=global_start, end=global_end, best_path=best_path)
-    behaviors = RobotBehaviorThread(robotList, best_path, global_orientation)
+
+    import pickle
+    list_of_coords = None
+    while(list_of_coords == None):
+        try:
+            outfile = '/Users/admin/Documents/Hamster/lab6/data.txt'
+            with open(outfile, 'rb') as fp:
+                list_of_coords = pickle.load(fp)
+        except Exception as e:
+            pass
+        time.sleep(1)
+
+    behaviors = RobotBehaviorThread(robotList, list_of_coords, global_orientation)
     behaviors.setDaemon(False)
     behaviors.start()
 
